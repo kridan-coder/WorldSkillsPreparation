@@ -16,8 +16,8 @@ struct ___FILEBASENAMEASIDENTIFIER___: View {
       GeometryReader { screen in
         Text("Hello, \(viewModel.name)!")
       }
+      .navigationBarHidden(isNavigationBarHidden)
     }
-    .navigationBarHidden(isNavigationBarHidden)
   }
 }
 
